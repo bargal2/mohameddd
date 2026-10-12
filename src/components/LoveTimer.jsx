@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const LoveTimer = () => {
   // 🎯 قم بتعديل التاريخ هنا فقط بفرمتة (YYYY-MM-DD)
-  const START_DATE_STRING = '2025-08-25';
+  const START_DATE_STRING = '2025-10-25';
 
   // تحويل النص إلى كائن Date للحسابات
   const startDate = new Date(`${START_DATE_STRING}T00:00:00`);

@@ -7,7 +7,7 @@ const LoveGate = ({ onUnlock }) => {
     const correctPassword = "mohamed"; // كلمة المرور
 
     // حساب عدد الأيام منذ البداية (20 مايو 2025)
-    const startDate = new Date('2025-08-25');
+    const startDate = new Date('2025-010-25');
     const today = new Date();
     const diffTime = Math.abs(today - startDate);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -66,7 +66,7 @@ const LoveGate = ({ onUnlock }) => {
                 <div className="bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl py-2 px-4 shadow-lg flex justify-center items-center text-xs">
                     <div>
                         <p className="text-pink-300 font-bold">بداية حكايتنا 🌹</p>
-                        <p className="text-gray-200 font-mono">25 / 08 / 2025</p>
+                        <p className="text-gray-200 font-mono">25 / 10 / 2025</p>
                     </div>
                 </div>
 
